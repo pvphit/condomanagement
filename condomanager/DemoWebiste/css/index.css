@@ -1,0 +1,34 @@
+.nav-custom{
+	height: 85px;
+	background-color: transparent;
+}
+
+.navbar-brand-custom > img{
+	height: 10vh;
+}
+
+.main-content{
+	background: url("../img/wallpaper.jpg");
+	min-height: 100vh;
+	background-size: cover;
+}
+
+.subContainerWithForm > h1{
+	color: #f8f9fa;
+	font-size: 3.8em;
+	/*font-weight: 700;*/
+	text-align: center;
+	margin-bottom: 50px;
+	text-shadow:  5px 4px 18px #2d5049;
+	font-family: 'Oleo Script';
+}
+
+.subContainerWithForm{
+	margin-top: 22vh;
+}
+
+.form-custom{
+
+  transform: translate(-50%, -50%);
+  margin-left: 50%;
+}

@@ -1,0 +1,40 @@
+.nav-custom{
+	height: 85px;
+	/*background-color: transparent;*/
+	background: url("../img/wallpaper.jpg");
+	background-size: cover;
+
+
+}
+
+.navbar-brand-custom > h1{
+	margin-top: 10px;
+	color: #f8f9fa;
+	font-size: 1.8em;
+	text-align: center;
+	text-shadow:  5px 4px 18px #2d5049;
+	font-family: 'Oleo Script';
+}
+
+.main-content{
+	min-height: 100vh;
+}
+/*
+.subContainerWithTabs{
+    margin-top: 30px;
+}
+
+.tab-content-custom{
+    margin-top: 2       0px;
+}
+
+.fa-check-circle-o-custom{
+    color: #32ca28;
+}
+*/
+.subContainerWithForm > h1{
+	
+}
+.form-container{
+
+}

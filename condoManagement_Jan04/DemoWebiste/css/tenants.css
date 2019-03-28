@@ -1,0 +1,22 @@
+.nav-link{
+	/*padding-left: 50px !Important;
+	padding-right: 50px !Important;*/
+	font-weight: bold;
+	font-size: 1em;
+	border-right: 1px solid #2d5049;
+	width: 130px;
+	text-align: center;
+}
+
+.nav-item:nth-child(5)>.nav-link {
+   border: none !Important;
+}
+
+.jumbotron-custom{
+
+}
+
+.card-text{
+	text-align: center;
+	font-weight: bold;
+}
