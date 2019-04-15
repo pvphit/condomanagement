@@ -42,7 +42,7 @@ public partial class login : System.Web.UI.Page
             Boolean checkusertype = checkuser();
             if(checkusertype)
             {
-                Response.Redirect("adminhomepage.aspx");
+                Response.Redirect("DefaultAdminHome.aspx");
             }
             else
             {

@@ -15,7 +15,7 @@
     <div class="navbar navbar-light" style="background-color: #e3f2fd;">
         <div style="float:right;">
         <asp:HyperLink ID="HyperLink7" runat="server" CssClass="btn btn-outline-info btn-sm"  NavigateUrl="~/userhome.aspx">Home</asp:HyperLink>
-        <asp:HyperLink ID="HyperLink5" runat="server" CssClass="btn btn-outline-info btn-sm"  NavigateUrl="~/searchusers.aspx">Search Users</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink5" runat="server" CssClass="btn btn-outline-info btn-sm"  NavigateUrl="~/searchusers.aspx">Chat</asp:HyperLink>
         <asp:HyperLink ID="HyperLink8" runat="server" CssClass="btn btn-outline-info btn-sm"  NavigateUrl="~/userBooking.aspx">Booking</asp:HyperLink>
         <asp:HyperLink ID="HyperLink6" runat="server" CssClass="btn btn-outline-info btn-sm"  NavigateUrl="~/userMaintenance.aspx">Maintenance</asp:HyperLink>
         <asp:HyperLink ID="HyperLink4" runat="server" CssClass="btn btn-outline-info btn-sm"  NavigateUrl="~/payment.aspx">Payment</asp:HyperLink>
@@ -24,12 +24,12 @@
         <asp:HyperLink ID="HyperLink3" runat="server" CssClass="btn btn-outline-info btn-sm"  NavigateUrl="~/logout.aspx">Logout</asp:HyperLink>
             </div></div>
          <nav class="navbar navbar-expand-lg navbar-light nav-custom">
-  <a class="navbar-brand navbar-brand-custom" href="#"><h1>CONDO MANAGEMENT SYSTEM</h1></a>
+  <a class="navbar-brand navbar-brand-custom" href="#"><h1 style="text-align:center">CONDO MANAGEMENT SYSTEM</h1></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <%--<div class="collapse navbar-collapse" id="navbarSupportedContent">
      <ul class="navbar-nav mr-auto">
       
     </ul>
@@ -53,7 +53,7 @@
 
        
 
-  </div>
+  </div>--%>
 </nav>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         

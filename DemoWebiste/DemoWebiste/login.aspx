@@ -1,8 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="login.aspx.cs" Inherits="login" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+   
     <table class="nav-justified">
         <tr>
             <td>Username</td>
@@ -23,13 +25,16 @@
             <td>
                 <asp:Button ID="Button1" runat="server" CssClass="btn btn-primary" OnClick="Button1_Click" Text="Login" />
             </td>
+             <td>
+                <asp:Label ID="Label1" runat="server"></asp:Label>
+            </td>
         </tr>
-        <tr>
+        <%--<tr>
             <td>&nbsp;</td>
             <td>
                 <asp:Label ID="Label1" runat="server"></asp:Label>
             </td>
-        </tr>
+        </tr>--%>
     </table>
 </asp:Content>
 

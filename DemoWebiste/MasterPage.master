@@ -6,13 +6,14 @@
 <head runat="server">
     <title></title>
     <%--<link href="css/bootstrap.css" rel="stylesheet" />--%>
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Oleo Script' rel='stylesheet'>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"/>
+    <link href='https://fonts.googleapis.com/css?family=Oleo Script' rel='stylesheet'/>
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
     
 </head>
 <body>
+
     <form id="form1" runat="server">
     <div class="navbar navbar-light" style="background-color: #e3f2fd;">
         <div style="float:right;">

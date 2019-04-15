@@ -63,27 +63,30 @@ public partial class recoverpassword : System.Web.UI.Page
 
                 MailMessage mail = new MailMessage();
                 mail.To.Add(new MailAddress(dt.Rows[0]["emailid"].ToString()));
-                mail.From = new MailAddress("condomanagment2019@gmail.com");
+                mail.From = new MailAddress("condomanagement1@yahoo.com");
                 mail.Subject = "Recover Password";
                 mail.Body = "Click <a href=\"" + URL + "\">here</a> to recover password ";
                 mail.IsBodyHtml = true;
 
                 SmtpClient client = new SmtpClient();
-                client.Host = "smtp.gmail.com";
+                client.Host = "smtp.mail.yahoo.com";
                 client.Port = 587;
                 client.EnableSsl = true;
-                client.Credentials = new System.Net.NetworkCredential("condomanagment2019@gmail.com", "CM@12345678");
+                //client.DeliveryMethod = SmtpDeliveryMethod.Network;
+                //client.UseDefaultCredentials = false;
+                client.Credentials = new System.Net.NetworkCredential("condomanagement1@yahoo.com", "pvp12345");
 
                 try
                 {
                     client.Send(mail);
+                    Label1.Text = "A recovery email has been sent to your registered emailid";
                 }
                 catch (Exception)
                 {
-
+                    Label1.Text = "Unable to send mail Check Username";
                 }
 
-                Label1.Text = "A recovery email has been sent to your registered emailid";
+               
             }
             catch (Exception)
             {

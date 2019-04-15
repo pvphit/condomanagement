@@ -36,7 +36,7 @@ public partial class updateprofile : System.Web.UI.Page
                     tbusername.Text = dt.Rows[0]["username"].ToString();
                     tbfullname.Text = dt.Rows[0]["fullname"].ToString();
                     tbemail.Text = dt.Rows[0]["emailid"].ToString();
-                    tbphoneno.Text = dt.Rows[0]["phoneno"].ToString(); ;
+                    //tbphoneno.Text = dt.Rows[0]["phoneno"].ToString(); ;
                     tbaddress.Text = dt.Rows[0]["address"].ToString();
                     RadioButtonList1.SelectedValue = dt.Rows[0]["gender"].ToString();
                 }
@@ -50,12 +50,12 @@ public partial class updateprofile : System.Web.UI.Page
         conn.ConnectionString = ConfigurationManager.ConnectionStrings["DemoConnectionString"].ConnectionString;
 
         SqlCommand cmd = new SqlCommand();
-        cmd.CommandText = "UPDATE [Users] SET [fullname] = @fullname, [emailid] = @emailid, [phoneno] = @phoneno, [address] = @address, [gender] = @gender WHERE [username] = @username";
+        cmd.CommandText = "UPDATE [Users] SET [fullname] = @fullname, [emailid] = @emailid,  [address] = @address, [gender] = @gender WHERE [username] = @username";
         cmd.Connection = conn;
 
         cmd.Parameters.AddWithValue("@fullname",tbfullname.Text);
         cmd.Parameters.AddWithValue("@emailid",tbemail.Text);
-        cmd.Parameters.AddWithValue("@phoneno",tbphoneno.Text);
+        //   cmd.Parameters.AddWithValue("@phoneno",tbphoneno.Text);[phoneno] = @phoneno,
         cmd.Parameters.AddWithValue("@address",tbaddress.Text);
         cmd.Parameters.AddWithValue("@gender",RadioButtonList1.SelectedValue);
         cmd.Parameters.AddWithValue("@username",tbusername.Text);

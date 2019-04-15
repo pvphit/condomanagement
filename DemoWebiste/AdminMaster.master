@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <div style="float:right;">
+             <asp:HyperLink ID="HyperLink3" runat="server" CssClass="btn btn-outline-info btn-sm"  NavigateUrl="~/DefaultAdminHome.aspx">Home</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink8" runat="server" CssClass="btn btn-outline-info btn-sm"  NavigateUrl="~/adminhomepage.aspx">User Details</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink1" runat="server" CssClass="btn btn-outline-info btn-sm"  NavigateUrl="~/BookingDetails.aspx">Booking Details</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink4" runat="server" CssClass="btn btn-outline-info btn-sm"  NavigateUrl="~/adminMaintance.aspx">Maintenance Details</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink2" runat="server" CssClass="btn btn-outline-info btn-sm"  NavigateUrl="~/logout.aspx">Logout</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink5" runat="server" CssClass="btn btn-outline-info btn-sm"  NavigateUrl="~/adminsearchuser.aspx">Chat Users</asp:HyperLink>
+        </div></div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

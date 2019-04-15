@@ -26,14 +26,14 @@
             <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Invalid Email" ControlToValidate="tbemail" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
         </td>
     </tr>
-    <tr>
+  <%--  <tr>
         <td>Phone No</td>
         <td>
             <asp:TextBox ID="tbphoneno" runat="server" CssClass="form-control" ></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="*" ControlToValidate="tbphoneno"></asp:RequiredFieldValidator>
             <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ErrorMessage="Invalid Mobile" ControlToValidate="tbphoneno" ValidationExpression="[789]{1}[0-9]{9}"></asp:RegularExpressionValidator>
         </td>
-    </tr>
+    </tr>--%>
     <tr>
         <td>Address</td>
         <td>

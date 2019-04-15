@@ -4,7 +4,7 @@
     <title>CONDO MANAGEMENT SYSTEM</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/register.css">
@@ -35,10 +35,10 @@
         <ul class="navbar-nav  my-2 my-lg-0">
    
       
-      <li class="nav-item">
+     <%-- <li class="nav-item">
 
          <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/signup.aspx"><span  class="btn btn-info my-2 my-sm-0" >Register</span></asp:HyperLink>
-      </li>
+      </li>--%>
        </ul>
 
   </div>
